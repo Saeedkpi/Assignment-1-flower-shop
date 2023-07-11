@@ -121,3 +121,49 @@ header {
     text-decoration: none;
 }
 /* The latest Product section style complete  */
+/* sign up section created now  */
+.sign-up-section-container {
+    max-width: 1920px;
+    max-height: 610px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    /* padding-top: 80px; */
+
+}
+.sign-title-details-btn {
+    text-align: center;
+    margin: 0px 15px;
+    /* padding: 20px; */
+    padding-top: 25px;
+    margin-bottom: 10px;
+}
+.sign-up-title {
+    color: #272727;
+    /* font-family: Lato; */
+    font-size: 40px;
+    /* font-style: normal; */
+    font-weight: 800;
+    /* line-height: normal; */
+}
+/* Hot dile section style complete  */
+.insta-section-container {
+    text-align: center;
+    background: #FFF;
+    max-width: 1910px;
+    max-height: 3066px;
+    margin: 126px 230px;
+}
+.photo-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+}
+.flex-photo {
+    width: 342px;
+    height: 396px;
+}
+
