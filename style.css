@@ -95,3 +95,29 @@ header {
 
 /* Title shape container section complete  */
 /* now create bonus section or latest product section  */
+/* Create bonus section style here  */
+.latest-product-section {
+    max-width: 1910px;
+    max-height: 1520px;
+    width: 90%;
+    display: block;
+    text-align: center;
+}
+.product-item-container-1, .product-item-container-2 {
+    display: flex;
+    justify-content: space-around;
+}
+.bonus-section img {
+    width: 342px;
+    height: 396px;
+}
+.product-title-header {
+    text-align: center;
+}
+.product-title {
+    background: rgba(5, 151, 160, 0.10);
+    padding: auto;
+}.img-title {
+    text-decoration: none;
+}
+/* The latest Product section style complete  */
