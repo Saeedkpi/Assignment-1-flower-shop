@@ -1,0 +1,44 @@
+body {
+    margin: 0px;
+
+}
+header {
+    display: flex;
+    justify-content: center;
+    background: rgba(229, 84, 115, 0.10);
+    max-width: 1920px;
+    max-height: 850px;
+    width: 100%;
+    align-items: center;
+    
+}
+.header-title-info-container {
+    margin: 50px 40px 40px 60px;
+    padding: 100px;
+    display: block;
+}
+.section-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    line-height: normal;
+}
+.section-descriptin {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+.btn {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 6px;
+    background: #E55473;
+    padding: 12px 20px;
+    border: none;
+}
+.greeting-photo {
+    width: 620px;
+    height: 750px;
+
+}
