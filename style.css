@@ -10,6 +10,7 @@ header {
     max-height: 850px;
     width: 100%;
     align-items: center;
+    margin-bottom: 40px;
     
 }
 .header-title-info-container {
@@ -19,14 +20,23 @@ header {
 }
 .section-title {
     color: #272727;
-    font-size: 80px;
+    font-size: 40px;
     font-weight: 800;
-    line-height: normal;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    padding: 10px 0px;
 }
-.section-descriptin {
+.greeting-title {
+    font-size: 60px;
+    margin-bottom: 18px;
+    margin-top: 20px;
+}
+.section-description {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
+    margin: 5px 0px;
+    padding: 15px 5px;
 }
 .btn {
     color: #FFF;
@@ -36,6 +46,10 @@ header {
     background: #E55473;
     padding: 12px 20px;
     border: none;
+    cursor: pointer;
+}
+.btn:hover {
+    color:rgb(219, 170, 6);
 }
 .greeting-photo {
     width: 620px;
@@ -60,7 +74,7 @@ header {
     height: 538px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-    background-image: url("Flower Asset/pngwing\ 6.png");
+    background-image: url("./Flower Asset/pngwing_6.png");
     background-repeat: no-repeat;
     background-position: center;
 
@@ -70,7 +84,7 @@ header {
     height: 538px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
-    background-image: url("Flower Asset/pngwing\ 5.png");
+    background-image: url("Flower Asset/pngwing_5.png");
     background-repeat: no-repeat;
     background-position: center;
 
@@ -80,7 +94,7 @@ header {
     height: 538px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
-    background-image: url("Flower Asset/pngwing\ 7.png");
+    background-image: url("Flower Asset/pngwing_7.png");
     background-repeat: no-repeat;
     background-position: center;
 
@@ -102,12 +116,13 @@ header {
     width: 90%;
     display: block;
     text-align: center;
+    margin: 40px auto;
 }
 .product-item-container-1, .product-item-container-2 {
     display: flex;
     justify-content: space-around;
 }
-.bonus-section img {
+.bonus-section-product img {
     width: 342px;
     height: 396px;
 }
@@ -130,26 +145,22 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 20px;
-    /* padding-top: 80px; */
+    margin-top: 40px;
+    margin-bottom: 30px;
 
 }
 .sign-title-details-btn {
     text-align: center;
     margin: 0px 15px;
-    /* padding: 20px; */
     padding-top: 25px;
     margin-bottom: 10px;
 }
 .sign-up-title {
     color: #272727;
-    /* font-family: Lato; */
     font-size: 40px;
-    /* font-style: normal; */
     font-weight: 800;
-    /* line-height: normal; */
 }
-/* Hot dile section style complete  */
+/* Hot deal section style complete  */
 .insta-section-container {
     text-align: center;
     background: #FFF;
@@ -169,11 +180,7 @@ header {
 
 /* now style contact and footer section  */
 
-.contact-section {
-    /* margin: 128px 220px;
-    /* margin-right: 220px; */ */
-    /* max-width: 1910px;
-    max-height: 3066px; */
+.contact-section-container {
     width: 1910px;
     height: 440px;
     border-radius: 8px;
@@ -183,17 +190,32 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-    margin-bottom: 120px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.contact-p {
+    margin-bottom: 25px;
+}
+.contact-header {
+    margin-top: 100px;
+}
+.contact-section {
+    display: block;
+    margin-top: 100px;
+    padding: 10px 10px;
+    align-items: center;
 }
 .contact-form input[type="email"] {
+    /* margin-top: 10px; */
     display: inline;
-    /* margin-bottom: 25px; */
+    /* margin-top: 15px; */
     padding: 18px 35px;
     color: #757575;
     border-radius: 5px;
     background: #FFF;
     border: 0;
     width: 40%;
+    margin-right: 10px;
 }
 .section-footer {
     max-width: 1920px;
@@ -216,9 +238,6 @@ header {
 .footer-copyright {
     color: rgba(255, 255, 255, 0.40);
     text-align: center;
-    /* font-family: Lato; */
     font-size: 16px;
-    /* font-style: normal; */
     font-weight: 400;
-    /* line-height: normal; */
 }
