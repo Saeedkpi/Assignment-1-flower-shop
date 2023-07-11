@@ -167,3 +167,58 @@ header {
     height: 396px;
 }
 
+/* now style contact and footer section  */
+
+.contact-section {
+    /* margin: 128px 220px;
+    /* margin-right: 220px; */ */
+    /* max-width: 1910px;
+    max-height: 3066px; */
+    width: 1910px;
+    height: 440px;
+    border-radius: 8px;
+    width: 90%;
+    margin: auto;
+    background-image: url("./Flower Asset/Rectangle\ 9.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-bottom: 120px;
+}
+.contact-form input[type="email"] {
+    display: inline;
+    /* margin-bottom: 25px; */
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 40%;
+}
+.section-footer {
+    max-width: 1920px;
+    height: 220px;
+    width: 100%;
+    background: #111010;
+    padding: 140px 0px;
+    /* padding: 127px 640px; */
+    text-align: center;
+}
+.footer-title-1 {
+    color: #E55473;
+}
+.footer-title-2{
+    color: #FFF;
+}
+.footer-p {
+    color: rgba(255, 255, 255, 0.90);
+}
+.footer-copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    /* font-family: Lato; */
+    font-size: 16px;
+    /* font-style: normal; */
+    font-weight: 400;
+    /* line-height: normal; */
+}
